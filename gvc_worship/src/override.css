@@ -1,0 +1,398 @@
+.login-page {
+    /*background: url('./assets/login-background.jpg');*/
+    height:100vh;
+    width:100%;
+    background-size: cover;
+}
+
+.login-title {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    width: 100%;
+}
+
+.login-sub-title {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    mix-blend-mode: normal;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login-form {
+    margin-top: 50px;
+    left:25%;
+    width: 50%;
+    height: 40vh;
+    position:relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blue-top-background {
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #00316B;
+    width: 100%;
+    height: 40%;
+}
+
+.navBar-background {
+    background: #00316B !important;
+    color: white !important;
+}
+
+.menuitem-text {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navBar-button {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    background-color: transparent !important;
+    font-weight: bold !important;
+}
+
+.create-new-button {
+    color: black !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    background: #E7E7E7 !important;
+    border-radius: 2px !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
+
+.navBar-button-logout {
+    margin-left: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    color:white !important;
+    border-width: 1px !important;
+    border-radius: 5px !important;
+}
+
+.login-input-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.login-input-field {
+    background: #E7E7E7 !important;
+    width: 100%;
+    border-width: 0px !important;
+}
+
+.login-input {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+}
+
+.form-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.form-description-sub {
+    font-family: 'Work Sans';
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: black;
+}
+
+.blue-button {
+    position: relative;
+    width:25%;
+    background: #00316B !important;
+    margin:20px !important;
+}
+
+.login-buttons {
+    height:auto;
+    position:relative;
+    margin-top: 12vh !important;
+}
+
+.login-forgot-password-button {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    color: blue;
+    margin-top: 5px;
+}
+
+.orange-button {
+    position:relative;
+    width:25%;
+    margin:20px !important;
+    background: #F04E23 !important;
+}
+
+.login-logo {
+    margin-top: 10vh;
+}
+
+.body {
+    background: #eeeeee;
+}
+
+.pageTitle {
+    font-size: 40px;
+    font-weight: bold;
+    left: 100px;
+    text-align: left;
+    margin: 20px;
+}
+
+.secondTitle {
+    font-size: 30px;
+    display:inline;
+    margin: 10px;
+}
+
+.inputTitle {
+    font-size: 15px;
+    width: 10vw;
+}
+
+.inputText {
+    width: 100%;
+}
+
+.editor {
+    height: 100%;
+}
+
+.body-editor{
+    height: 50vh;
+}
+
+.blue {
+    background: #00316B !important;
+}
+
+.orange {
+    background: #F04E23 !important;
+}
+
+.submitButton {
+    position: relative !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 10px !important;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.flex-input-2 {
+    flex: 2;
+}
+
+.flex-input-1 {
+    flex: 1;
+}
+
+.buttons {
+    position: absolute;
+    right: 50px;
+}
+
+.clickable-text {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.page-content {
+    margin: 30px;
+}
+
+.register-form-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    color: #000000;
+}
+.register-form {
+    margin-top: 50px;
+    left:25%;
+    width: 50%;
+    height: 60vh;
+    position:relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.register-input {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    padding-top: 30px;
+}
+.register-buttons {
+    height:auto;
+    position:relative;
+    margin-top: 20px;
+}
+.register-logo {
+    margin-top: 20vh;
+}
+
+.journal-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 10px;
+}
+
+.journal-info-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+    color: #9A9A9A;
+}
+
+.journal-info-value {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.underline {
+    border: 1px solid #E7E7E7;
+}
+
+.dialog-panel {
+    width: 95vw;
+    position: relative;
+}
+
+.post-panel {
+    float: left;
+    width: 80%;
+}
+
+.comment-panel {
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+
+.comment-box {
+    margin-top: 10px;
+}
+
+.button-color-edit {
+    color: #00316B!important;
+}
+
+.button-color-undo {
+    color: gray!important;
+}
+
+.button-color-remove {
+	color: #F04E23 !important;
+}
+
+.comment-by {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.comment-when {
+    margin-top: 12px;
+}
+
+.comment-button-create {
+    margin-left: 5px!important;
+    margin-bottom: 5px!important;
+    width: 55px !important;
+    height: 90px;
+    background-color: #F04E23!important;
+}
+
+.comment-button-edit {
+    margin-right: 10px !important;
+    background-color: #F04E23!important;
+}
+
+.comment-card {
+    height: 100% ;
+    margin-left: 10px;
+}
+
+.loading {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 99;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 100;
+}

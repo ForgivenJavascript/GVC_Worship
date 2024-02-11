@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="body">
+    <router-view :key="$route.path" />
+    ver {{version}}
+  </div>
+  <!--img alt="Vue logo" src="./assets/logo.png"-->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Login from './modules/authentication/Login.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Login
+  },
+  data() {
+    return {
+      version: ''
+    }
+  },
+  created() {
+    this.version = require('@/../package.json').version;
   }
 }
 </script>
